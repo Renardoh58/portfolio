@@ -13,48 +13,115 @@
                 </a>
                 <div>
                     <a href="../../index.html">Accueil</a>
+                    <a href="../../a-propos.html">À propos</a>
                     <a href="../../projets.html">Mes projets</a>
-                    <a href="../../index.html#Contact">Me contacter</a>
                 </div>
             </nav>
         </header>
         <main>
-            <h1>SAE 2.02 - Exploration algorithmique d'un problème</h1>
-            <section id="Description">
+            <h1>Exploration algorithmique d'un problème</h1>
+            <section class="description">
                 <h2>Description</h2>
-                <p>TEXTE</p>
+                <p>Dans le cadre de ce projet, nous cherchons à planifier une tournée optimale
+                    reliant 190 restaurants. Ce problème s’apparente à celui du Voyageur de Commerce.
+                    Nous avons mis en œuvre différents algorithmes pour essayer de trouver le plus court
+                    chemin de manière approché.</p>
             </section>
-            <section id="Presentation">
+            <section class="presentation">
                 <h2>Présentation</h2>
-                <p>TEXTE</p>
+                <ul>
+                    <li><strong>Nom du projet :</strong> Exploration algorithmique d'un problème</li>
+                    <li><strong>Mots-clés :</strong> Algorithme, TSP, Expérimentation, Comparaison, Méthode</li>
+                    <li><strong>Contexte :</strong> Les vacances d’été arrivent et vos enseignants ont décidé de les
+                        mettre à profit pour être productifs ! Ils souhaitent manger dans chacun des 190 restaurants
+                        du département pour décider lequel est le meilleur (O’puits grand favori). Cependant, ils ne
+                        veulent pas perdre trop de temps à se déplacer, car le temps c’est du manger. Comment pouvons
+                        vous les aider ?</li>
+                    <li><strong>But :</strong>
+                        <ul>
+                            <li>Analyser un problème avec méthode</li>
+                            <li>Comparer des algorithmes pour des problèmes classiques</li>
+                            <li>Expérimenter la notion de compilation et les représentation bas niveau des données</li>
+                            <li>Formaliser et mettre en œuvre des outils mathématiques pour l’informatique</li>
+                        </ul>
+                    </li>
+                </ul>
             </section>
-            <section id="Condition-de-realisation">
-                <h2>Condition de réalisation</h2>
-                <p>TEXTE</p>
+            <section class="condition-realisation">
+                <h2>Conditions de réalisation</h2>
+                <ul>
+                    <li><strong>Nombre d'étudiants :</strong> 4</li>
+                    <li><strong>Temps passé :</strong> 25h</li>
+                    <li><strong>Ressources utilisées :</strong> Fichier d'input de base commun, IDE, Compilateur</li>
+                </ul>
             </section>
-            <section id="Resultat-final">
+            <section class="resultat-final">
                 <h2>Résultat final</h2>
-                <p>TEXTE</p>
+                <ul>
+                    <li><strong>Production finale du projet :</strong> Le code de l'algorithme de chacun ainsi que d'un rapport
+                        présentant individuellement un algorithme, son fonctionnement, ses faiblesses, ses forces, une partie expérimentation
+                        et la répartition des tâches dans le groupe.</li>
+                    <li><strong>Qualités / Défauts / Améliorations :</strong>
+                        <ul>
+                            <li>Le projet consiste en la combinaison d'un algorithme GRASP (Greedy Randomized Adaptive Search Procedure)
+                                et d'un algorithme 2-opt first improvement (qui part d'une solution initiale pour l'améliorer, en
+                                privilégiant la vitesse d'exécution à la qualité de l'optimisation sélectionnée)</li>
+                            <li>La génération de 100 solutions différentes permet de produire des résultats différents qui seront ensuite
+                                optimisés par le 2-opt pour choisir la solution finale la plus optimisée</li>
+                            <li>L'ajout d'un affichage graphique détaillé permet d'exploiter facilement les statistiques de l'algorithme
+                                (temps d'exécution, gain du 2-opt, distance moyenne, meilleure distance)</li>
+                            <li>L'utilisation de la distance d'Haversine, paraissant adaptée au projet, ne reflète pas les trajets routiers réels</li>
+                            <li>Le temps d'exécution augmente fortement en fonction du nombre de villes / restaurants</li>
+                        </ul>
+                    </li>
+                    <li><strong>Évolutions possibles du projet :</strong> Pour améliorer ce projet, il serait plus judicieux
+                        d'utiliser un algorithme 2-opt best improvement plutôt que first improvement. La qualité des données
+                        de références utilisées peut également jouer sur le résultat, elle est donc à vérifier. L'efficacité
+                        de l'algorithme pourrait également être améliorée en le combinant à d'autres algorithmes.</li>
+                </ul>
             </section>
-            <section id="Images-du-projet">
-                <h2>Images du projet</h2>
-                <p>TEXTE</p>
-            </section>
-            <section id="Apports">
+            <section class="apports">
                 <h2>Apports</h2>
-                <p>TEXTE</p>
+                <p>Ce projet m'a permis de mieux comprendre comment concevoir et améliorer un algorithme pour
+                    résoudre un problème du type TSP.  J'ai appris à utiliser différentes méthodes pour trouver
+                    un trajet efficace entre plusieurs villes tout en limitant le temps d'exécution du programme.
+                    J'ai également développé mes compétences en programmation, en test et en analyse des résultats en
+                    réalisation de nombreux essais qui m'ont permis de comparer plusieurs versions de l'algorithme et
+                    de vérifier leur efficacité. Enfin, ce projet m'a appris à mesurer les performances d'un programme,
+                    à identifier ses points faibles et à proposer des améliorations pour obtenir de meilleurs résultats.</p>
+            </section>
+            <section class="images-projet">
+                <h2>Images du projet</h2>
+                <div class="galerie">
+                    <a href="../../images/s2/2/Exec(1).png" target="_blank">
+                        <img src="../../images/s2/2/Exec(1).png" alt="Exécution(1)">
+                    </a>
+                    <a href="../../images/s2/2/Exec(2).png" target="_blank">
+                        <img src="../../images/s2/2/Exec(2).png" alt="Exécution(2)">
+                    </a>
+                    <a href="../../images/s2/2/Graphique(1).png" target="_blank">
+                        <img src="../../images/s2/2/Graphique(1).png" alt="Graphique Temps / nb restaurants">
+                    </a>
+                    <a href="../../images/s2/2/Graphique(2).png" target="_blank">
+                        <img src="../../images/s2/2/Graphique(2).png" alt="Graphique Distance moyenne et meilleure distance / nb restaurants">
+                    </a>
+                    <a href="../../images/s2/2/Graphique(3).png" target="_blank">
+                        <img src="../../images/s2/2/Graphique(3).png" alt="Graphique Gain Moyen 2-opt / nb restaurants">
+                    </a>
+                    <a href="../../images/s2/2/Tableau.png" target="_blank">
+                        <img src="../../images/s2/2/Tableau.png" alt="Bilan des statistiques">
+                    </a>
+                </div>
             </section>
             <div class="navigation-projets">
-                <a href="s2_01.html" class="bouton">← Précédent</a>
-                <a href="s2_03.html" class="bouton">Suivant →</a>
+                <a href="../../portfolio/s2/s2_01.html" class="bouton">← Précédent</a>
+                <a href="../../portfolio/s2/s2_03.html" class="bouton">Suivant →</a>
             </div>
         </main>
         <footer>
-            <section aria-label="Liens">
-                <a href="../../index.html" class="lien-icone">
-                    <img src="../../images/logo.png" alt="Logo Portfolio" >
-                </a>
-                <div>
+            <div class="footer-content">
+                <p class="footer-text">© 2026 Thibault CONDAMINE – BUT Informatique</p>
+                <div class="footer-social">
                     <a href="https://github.com/Renardoh58" class="lien-icone">
                         <img src="../../images/github.png" alt="Logo Github">
                     </a>
@@ -62,7 +129,7 @@
                         <img src="../../images/linkedin.png" alt="Logo Linkedin">
                     </a>
                 </div>
-            </section>
+            </div>
         </footer>
     </body>
 </html>

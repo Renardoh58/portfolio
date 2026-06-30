@@ -13,48 +13,107 @@
                 </a>
                 <div>
                     <a href="../../index.html">Accueil</a>
+                    <a href="../../a-propos.html">À propos</a>
                     <a href="../../projets.html">Mes projets</a>
-                    <a href="../../index.html#Contact">Me contacter</a>
                 </div>
             </nav>
         </header>
         <main>
-            <h1>SAE 2.03 - Installation de services réseau</h1>
-            <section id="Description">
+            <h1>Installation de services réseau</h1>
+            <section class="description">
                 <h2>Description</h2>
-                <p>TEXTE</p>
+                <p>Le projet consiste en la réalisation d'un jeu Puissance 4 en réseau codé
+                    en langage C et en utilisant les sockets TCP, en suivant un schéma d'avancée
+                    progressive en 3 parties.</p>
             </section>
-            <section id="Presentation">
+            <section class="presentation">
                 <h2>Présentation</h2>
-                <p>TEXTE</p>
+                <ul>
+                    <li><strong>Nom du projet :</strong> Jeu Puissance 4 en C avec sockets TCP</li>
+                    <li><strong>Mots-clés :</strong> Algorithme, Puissance 4, Client, Serveur, Socket TCP, Fork</li>
+                    <li><strong>Contexte :</strong> Projet de mise en pratique des connaissances de la ressource Réseaux</li>
+                    <li><strong>But :</strong> Développer un jeu Puissance 4 en réseau en langage C en utilisant les sockets TCP.
+                        Le projet est divisé en 3 niveaux progressifs :
+                        <ol>
+                            <li>Client contre serveur (IA simple)</li>
+                            <li>Deux clients s’affrontent</li>
+                            <li>Plusieurs parties simultanées avec fork</li>
+                        </ol>
+                    </li>
+                </ul>
             </section>
-            <section id="Condition-de-realisation">
-                <h2>Condition de réalisation</h2>
-                <p>TEXTE</p>
+            <section class="condition-realisation">
+                <h2>Conditions de réalisation</h2>
+                <ul>
+                    <li><strong>Nombre d'étudiants :</strong> 2</li>
+                    <li><strong>Temps passé :</strong> 35h</li>
+                    <li><strong>Ressources utilisées :</strong> Distribution Linux Fedora 43 (KDE), Éditeur de texte Kwrite, Terminal Konsole</li>
+                </ul>
             </section>
-            <section id="Resultat-final">
+            <section class="resultat-final">
                 <h2>Résultat final</h2>
-                <p>TEXTE</p>
+                <ul>
+                    <li><strong>Production finale du projet :</strong>
+                        <ul>
+                            <li>Un fichier server.c et un fichier client.c pour chaque niveau du programme</li>
+                            <li>un compte rendu avec les screenshots d’exécution</li>
+                        </ul>
+                        Les niveaux 1 et 2 du projet ont été réalisés et rendus ; néanmoins, la partie 3 n'a pas été rendue.
+                    </li>
+                    <li><strong>Qualités / Défauts / Améliroations :</strong> La production finale permet, d'une part, de jouer
+                        au Puissance 4 contre une IA simple gérée par le serveur ; d'autre part, une autre version permet de jouer
+                        à 2 en local en utilisant 3 terminaux (1 pour le serveur, 2 pour les joueurs). Des précédents
+                        tests ont permis d'améliorer le code de façon à ce que le serveur puisse gérer plusieurs parties en simultané. Néanmoins, ne
+                        réussissant pas à connecter une autre machine à distance via le réseau sans fil grâce à une adresse IP (machine
+                        virtuelle ou autre pc), le code ne réponds pas à toutes les attentes.</li>
+                    <li><strong>Évolutions possibles du projet :</strong> Une marge de progression du projet se fait ressentir afin de compléter
+                        les attendus initiaux. Un apport supplémentaire au sujet de base serait la mémorisation des victoires des différents joueurs
+                        selon leur adresse IP afin d'ajouter une fonctionnalité de leaderbord. L'ajout d'une interface plus propre et plus visuelle
+                        (hors d'un terminal) est également une évolution possible.</li>
+                </ul>
             </section>
-            <section id="Images-du-projet">
-                <h2>Images du projet</h2>
-                <p>TEXTE</p>
-            </section>
-            <section id="Apports">
+            <section class="apports">
                 <h2>Apports</h2>
-                <p>TEXTE</p>
+                <p>Ce projet m'a appris à développer un serveur et un client de complexité variable en langage C selon le niveau
+                    de difficulté choisi. J'ai découvert les sockets TCP qui permettent de faire communiquer les programmes entre
+                    eux sur un réseau local et sur un réseau sans-fil. La programmation réseaux est l'élément majeur de ce projet,
+                    l'agorithme du Puissance 4 étant assez simple et donnant une base pour découvrir le potentiel des sockets TCP.</p>
+            </section>
+            <section class="images-projet">
+                <h2>Images du projet</h2>
+                <div class="galerie">
+                    <a href="../../images/s2/3/Code clientN2(1).png" target="_blank">
+                        <img src="../../images/s2/3/Code clientN2(1).png" alt="Code clientN2(1)">
+                    </a>
+                    <a href="../../images/s2/3/Code clientN2(2).png" target="_blank">
+                        <img src="../../images/s2/3/Code clientN2(2).png" alt="Code clientN2(2)">
+                    </a>
+                    <a href="../../images/s2/3/Code serverN2(1).png" target="_blank">
+                        <img src="../../images/s2/3/Code serverN2(1).png" alt="Code serverN2(1)">
+                    </a>
+                    <a href="../../images/s2/3/Code serverN2(2).png" target="_blank">
+                        <img src="../../images/s2/3/Code serverN2(2).png" alt="Code serverN2(2)">
+                    </a>
+                    <a href="../../images/s2/3/Etape1.png" target="_blank">
+                        <img src="../../images/s2/3/Etape1.png" alt="Exécution Etape1">
+                    </a>
+                    <a href="../../images/s2/3/Etape2_1.png" target="_blank">
+                        <img src="../../images/s2/3/Etape2_1.png" alt="Exécution Etape2_1">
+                    </a>
+                    <a href="../../images/s2/3/Etape2_2.png" target="_blank">
+                        <img src="../../images/s2/3/Etape2_2.png" alt="Exécution Etape2_2">
+                    </a>
+                </div>
             </section>
             <div class="navigation-projets">
-                <a href="s2_02.html" class="bouton">← Précédent</a>
-                <a href="s2_04.html" class="bouton">Suivant →</a>
+                <a href="../../portfolio/s2/s2_02.html" class="bouton">← Précédent</a>
+                <a href="../../portfolio/s2/s2_04.html" class="bouton">Suivant →</a>
             </div>
         </main>
         <footer>
-            <section aria-label="Liens">
-                <a href="../../index.html" class="lien-icone">
-                    <img src="../../images/logo.png" alt="Logo Portfolio" >
-                </a>
-                <div>
+            <div class="footer-content">
+                <p class="footer-text">© 2026 Thibault CONDAMINE – BUT Informatique</p>
+                <div class="footer-social">
                     <a href="https://github.com/Renardoh58" class="lien-icone">
                         <img src="../../images/github.png" alt="Logo Github">
                     </a>
@@ -62,7 +121,7 @@
                         <img src="../../images/linkedin.png" alt="Logo Linkedin">
                     </a>
                 </div>
-            </section>
+            </div>
         </footer>
     </body>
 </html>

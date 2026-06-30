@@ -13,48 +13,142 @@
                 </a>
                 <div>
                     <a href="../../index.html">Accueil</a>
+                    <a href="../../a-propos.html">À propos</a>
                     <a href="../../projets.html">Mes projets</a>
-                    <a href="../../index.html#Contact">Me contacter</a>
                 </div>
             </nav>
         </header>
         <main>
-            <h1>SAE 1.03 - Installation d'un poste pour le développement</h1>
-            <section id="Description">
+            <h1>Installation d'un poste pour le développement</h1>
+            <section class="description">
                 <h2>Description</h2>
-                <p>TEXTE</p>
+                <p>Dans ce projet, vous allez simuler la mise en place de deux
+                    ordinateurs répondant à des besoins définis pour des clients.
+                    Il y aura trois étapes :</p>
+                <ul>
+                    <li>Préciser les machines (et les composants) à acheter pour
+                        l’équipement des postes. Avec un budget prédéfini, vous
+                        devez choisir les composantes à acheter pour construire
+                        les deux ordinateurs correspondant aux besoins des clients
+                        et simuler le montage des machines avec les composants choisis.
+                    </li>
+                    <li>Simuler l’installation logicielle sur ces postes. Vous devez
+                        installer et configurer deux machines virtuelles pour le
+                        développement simulant les ordinateurs à construire du point
+                        précédent. Cela inclut : système d’exploitation, création
+                        d’un compte utilisateur non administrateur, installation d’un EDI.
+                    </li>
+                    <li>Produire des scripts permettant à l’utilisateur d’automatiser des
+                        tâches prédéfinies. Vous devez écrire des scripts shell permettant
+                        la création automatique de fichier, la suppression, etc… en fonction
+                        de ce qui est utile.
+                </li>
+                </ul>
             </section>
-            <section id="Presentation">
+            <section class="presentation">
                 <h2>Présentation</h2>
-                <p>TEXTE</p>
+                <ul>
+                    <li><strong>Nom du projet :</strong> Installation de poste</li>
+                    <li><strong>Mots-clés :</strong> Machine virtuelle, Script, Linux, Windows, Administration, Composant</li>
+                    <li><strong>Contexte :</strong> Création d'un environnement de travail exploitable et ajustable pour une famille avec profils variés</li>
+                    <li><strong>But :</strong>
+                        <ul>
+                            <li>Identifier les différents composants d’un système numérique</li>
+                            <li>Utiliser les fonctionnalités de base d’un système multitâches / multiutilisateur</li>
+                            <li>Installer et configurer un système d’exploitation et des outils de développement</li>
+                        </ul>
+                    </li>
+                </ul>
             </section>
-            <section id="Condition-de-realisation">
-                <h2>Condition de réalisation</h2>
-                <p>TEXTE</p>
+            <section class="condition-realisation">
+                <h2>Conditions de réalisation</h2>
+                <ul>
+                    <li><strong>Nombre d'étudiants :</strong> 3</li>
+                    <li><strong>Temps passé :</strong> 24h</li>
+                    <li><strong>Ressources utilisées :</strong> Virtualbox, Ubuntu, gedit, LDLC, Amazon</li>
+                </ul>
             </section>
-            <section id="Resultat-final">
+            <section class="resultat-final">
                 <h2>Résultat final</h2>
-                <p>TEXTE</p>
+                <ul>
+                    <li><strong>Production finale du projet :</strong>
+                        <ul>
+                            <li>Une liste de composante pour la construction d'un PC de
+                                bureau répondant au cahier des charges</li>
+                            <li>La mise en place d'environnements virtuels exploitables
+                                pour des usages divers avec notamment l'installation de
+                                deux systèmes d'exploitation (Windows et Linux) et de
+                                logiciels prérequis</li>
+                            <li>Des scripts Shell Linux et Batch afin d'automatiser certaines
+                                tâches et faciliter l'utilisation du système d'exploitation</li>
+                        </ul>
+                    </li>
+                    <li><strong>Qualités / Défauts / Améliorations :</strong>
+                        <ul>
+                            <li>Le setup sélectionné correspond a un budget limité; des optimisations
+                                des composantes dans la limite voire hors du budget sont envisageables</li>
+                            <li>Le choix de la distribution Linux dépend majoritairement des choix de
+                                l'utilisateur quant à l'utilisation qu'il en fera; la machine virtuelle
+                                ou l'OS lui-même doit également être optimisé pour les composantes les supportant</li>
+                            <li>Les scripts Shell et Batch sont limités à leur utilisation première; ils
+                                pourraient être améliorés en terme de propreté de codage et de fonctionnalités</li>
+                        </ul>
+                    </li>
+                </ul>
             </section>
-            <section id="Images-du-projet">
-                <h2>Images du projet</h2>
-                <p>TEXTE</p>
-            </section>
-            <section id="Apports">
+            <section class="apports">
                 <h2>Apports</h2>
-                <p>TEXTE</p>
+                <ul>
+                    <li>Ce projet m'a permis de développer mes connaissances sur les différents
+                        composants d'un PC de bureau comme portable, leur fonctionnement, leur
+                        importance et leur prix. Carte mère, processeur, RAM, ventilateur, alimentation,
+                        stockage (HDD ou SSD) sont autant de composantes nécessaires à la composition d'un PC,
+                        la carte graphique étant optionnelle mais recommandée pour plus de puissance.</li>
+                    <li>Également, j'ai découvert l'existence de différents systèmes d'exploitation et leurs
+                        différences caractéristiques. Windows est un OS utilisé par la majorité des ordinateurs
+                        qui convient à la majorité des tâches, alors que Linux se divise en distributions uniques
+                        mais qui excellent dans leur utilisation de prédilection. Néanmoins, la compatibilité
+                        entre Windows et Linux n'est pas native, même si des outils comme Wine ou Proton existent
+                        pour y remédier; une autre solution consisterait en l'installation simple d'une VM de
+                        l'autre système souhaité.</li>
+                    <li>Enfin, j'ai appris à coder des scripts en Shell Linux et en Batch; j'ai découvert les
+                        éléments de codage basiques comme les conditions, les boucles ainsi que l'utilisation
+                        d'argument ajoutés à la commande. Certains éléments sont plus propre au Shell qu'au Batch
+                        mais le code reste le même malgré quelques différences d'écriture.</li>
+                </ul>>
+            </section>
+            <section class="images-projet">
+                <h2>Images du projet</h2>
+                <div class="galerie">
+                    <a href="../../images/s1/3/Boitier.png" target="_blank">
+                        <img src="../../images/s1/3/Boitier.png" alt="Boitier">
+                    </a>
+                    <a href="../../images/s1/3/Processeur.png" target="_blank">
+                        <img src="../../images/s1/3/Processeur.png" alt="Processeur">
+                    </a>
+                    <a href="../../images/s1/3/RAM.png" target="_blank">
+                        <img src="../../images/s1/3/RAM.png" alt="RAM">
+                    </a>
+                    <a href="../../images/s1/3/Script (1).png" target="_blank">
+                        <img src="../../images/s1/3/Script (1).png" alt="Script Linux (1)">
+                    </a>
+                    <a href="../../images/s1/3/Script (2).png" target="_blank">
+                        <img src="../../images/s1/3/Script (2).png" alt="Script Linux (2)">
+                    </a>
+                    <a href="../../images/s1/3/UBUNTU (Illustration).png" target="_blank">
+                        <img src="../../images/s1/3/UBUNTU (Illustration).png" alt="VM Ubuntu">
+                    </a>
+                </div>
             </section>
             <div class="navigation-projets">
-                <a href="s1_02.html" class="bouton">← Précédent</a>
-                <a href="s1_04.html" class="bouton">Suivant →</a>
+                <a href="../../portfolio/s1/s1_02.html" class="bouton">← Précédent</a>
+                <a href="../../portfolio/s1/s1_04.html" class="bouton">Suivant →</a>
             </div>
         </main>
         <footer>
-            <section aria-label="Liens">
-                <a href="../../index.html" class="lien-icone">
-                    <img src="../../images/logo.png" alt="Logo Portfolio" >
-                </a>
-                <div>
+            <div class="footer-content">
+                <p class="footer-text">© 2026 Thibault CONDAMINE – BUT Informatique</p>
+                <div class="footer-social">
                     <a href="https://github.com/Renardoh58" class="lien-icone">
                         <img src="../../images/github.png" alt="Logo Github">
                     </a>
@@ -62,7 +156,7 @@
                         <img src="../../images/linkedin.png" alt="Logo Linkedin">
                     </a>
                 </div>
-            </section>
+            </div>
         </footer>
     </body>
 </html>
